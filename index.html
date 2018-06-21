@@ -1,69 +1,76 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-<style type="text/css">
-			p{	color:green;
-				text-align:center;
-				font-size: 30px;
-			}
-		#red{color:red;text-align: center;}
-		h1{color:white}
-		html,body{width: 100%;height: 100%;}
-		body{
-			  font-family: "黑体";
-			  background:url(rough-horn-alpine-tannheimer-mountains-mountain-13e4e21621e985df2bb7d1aa4a74a284.jpg) center no-repeat;
-			  background-size: 100% 100%;
-			}
-		td{color: white; font-size:20px;font-family:黑体;}
-		table{
-			
-			background-size: 100% 100%;
-		}
-		a:link,a:visited{ 
- 						text-decoration:none;  /*超链接无下划线*/ 
- 						color: white;			/*超链接文字白色 定义正常与已访问过的f链接的样式*/
-						} 
-		a:hover,a:active{
-						text-decoration: underline;
-						}
+<head>
+  <meta charset="utf-8">
+  <title>TEXT</title>
+      <link rel="shortcut icon" type="image/x-icon" href="images/bitbug_favicon (1).ico">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+  /*div{width:200px;height:100px;padding: 10px;border: 10px solid #999;}
+  #box1{width:800px;height:400px;display:block; box-sizing:content-box;background: blue;color: white;background: url(images/flect.jpg) no-repeat;background-size: 100%; border: 0;}
+  #box2{box-sizing:border-box;background: red;margin-top: 10px;color: white;}
+  #a1{display: list-item; margin-left: 20px;list-style-type: circle;}
+  */
 
-</style>
-	</head>
-	<link rel="shortcut icon" type="image/x-icon" href="bitbug_favicon.ico">
-	<link rel="bookmark" type="image/x-icon" href="bitbug_favicon.ico">
-	<title>GENMER.XYZ</title>
-	<body>
+  #include{height:100%;width: 80%;position: absolute;top: 10%;right:10%;background:url(images/bled-slovenia-lake-mountains-377d9242a3188a798c83e34e447a50a6.jpg);no-repeat;background-size: 100%; 
+     max-width: 80% ; /*最大宽度 ，防止布局在大型显示器上过宽*/
+    min-width: 50%;     /*最小宽度*/}
+  #div1{float: left;}
+  /*
+  #box-relative{position: relative;left: 30px;top:800px;}
+  #box-margin-left{position: absolute;right: 20%;bottom: 20%;}
+  */
+  #body1{ background:url(images/flect.jpg); ;background-size :100%;}
+  .container{
+    width: 80%;background:#fff;margin:0 auto;
+    max-width: 1020px;  /*最大宽度 ，防止布局在大型显示器上过宽*/
+    min-width: 480px;     /*最小宽度*/
+  }
+  /*水平导航菜单*/
+nav ul li{display: inline-block;float: right ;}
+nav ul a{
 
-		<img src="../logo1.png" width="10%">
-		<table align="center"  background="bled-slovenia-lake-mountains-377d9242a3188a798c83e34e447a50a6.jpg" >
-			<tr  height=50px>
-				<td width="250">&nbsp</td>
-				<td width="50">Aboutus</td>
-				<td>&nbsp</td>
-				<td width="50"><a href="https://www.cnblogs.com/520-42">Cnblogs</a></td>
-				<td>&nbsp</td>
-				<td width="50"><a href="https://weibo.com/u/5260415436">Microblog</a></td>
-				<td>&nbsp</td>
-				<td width="50"><a href="https://www.hippopx.com/">Hippopx</a></td>
-				<td>&nbsp</td>
-				<td width="50"><a href="https://www.pond5.com/">PonD5</a></td >
-				<td>&nbsp</td>
-				<td width="50">Contackus</td>
-				<td>&nbsp</td>
-				<td width="50">Help</td>
-				<td width="200">&nbsp</td>
-			</tr >
-			<tr height=770px >
-				<td colspan="11" color="red">There have some web about share i want for you</td>
-			</tr>
-		</table>
-		<table background="wolf-wolves-snow-wolf-landscape-985ca149f06cd03b9f0ed8dfe326afdb.jpg"   align="center" width="1900px"  height="900px">
-			<tr width="800px"  height="900px" align="center" background-size="100%">
-				
-			</tr>
-		</table>
-		
-	</body>
-	
-	
-</html>
+    display: inline-block;
+    line-height: 60px; width: 100px;text-align: center;
+    border-right: solid 0px #834524;
+    color: #ffffff;text-decoration: none;font-size:1.8em;
+    transition:background 0.5s linear;
+}
+
+nav ul a:hover{background-color:#eee;}/*鼠标停留时颜色*/
+ul {
+margin:0;
+padding:0;
+}
+#li {float:left;margin-top: 10px;margin-left: 30px}
+  </style>
+</head> 
+
+<body id="body1">
+<div id="include">
+      <nav>
+      <ul>
+      <li id="li"> <images src="images/New logo1.png" width="80"></font></li>
+      </ul>
+    </nav>
+    <nav>
+      <ul>
+      <li><a href="aboutus.html" ><font size="4">About Us</font></a></li>
+       <li><a href="https://weibo.com/u/5260415436" target="_blank"><font size="4">Microblog</font></a></li>
+       <li><a href="https://www.hippopx.com/" target="_blank"><font size="4"> Hippopx</font></a></li>
+       <li><a href="https://www.pond5.com/" target="_blank"><font size="4">Pond 5</font></a></li>
+       <li><a href="https://www.cnblogs.com/520-42" target="_blank"><font size="4">Blog</font></a></li>
+
+
+      </ul>
+    </nav>
+  <div >
+
+  </div>
+  <div id="box-margin-left"></div>
+  <div></div>
+</div>
+
+
+</body>
+</html>   
